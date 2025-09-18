@@ -1,5 +1,5 @@
 import * as mongoose from 'mongoose'
-import { Movie } from '../movies/model'
+import { Movie } from '../movie/model'
 
 const movieSchema = new mongoose.Schema({
     name: { type: String, required: true },
